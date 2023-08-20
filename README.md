@@ -2,7 +2,7 @@
 
 In this repo, we use HuggingFace transformers library for Question Answering. 
 
-Libraries and installations
+**Libraries and installations**
 
 The libraries that are used in this repo are reported in the "environment.yml" file.
 
@@ -18,6 +18,6 @@ python -m ipykernel install --user --name=qna_app_env
 
 The latter command is used to install the environment as a kernel in Jupyter notebooks.
 
-Fine tuning the BERT model for text classification
+**Question answering with the transformers library and the Gradio webapp**
 
-The code that fine-tunes the BERT model for text classification is reported in the repo's jupyter notebook.
+The code for question answering and the code for the Gradio app is reported in the repo's jupyter notebook.
