@@ -1,6 +1,6 @@
 # Question answering with the Transformers (HuggingFace) library and Gradio webapp
 
-In this repo, we fine tune the BERT model to perform classification on the IMDB dataset
+In this repo, we use HuggingFace transformers library for Question Answering. 
 
 Libraries and installations
 
@@ -9,10 +9,13 @@ The libraries that are used in this repo are reported in the "environment.yml" f
 To install the libraries, execute the following command in Anaconda Prompt:
 
 conda env create -f environment.yml
+
 After the libraries are installed, execute in Anaconda Prompt:
 
-conda activate intro_to_transformers_env
-python -m ipykernel install --user --name=intro_to_transformers_env
+conda activate qna_app_env
+
+python -m ipykernel install --user --name=qna_app_env
+
 The latter command is used to install the environment as a kernel in Jupyter notebooks.
 
 Fine tuning the BERT model for text classification
