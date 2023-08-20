@@ -1,0 +1,13 @@
+name: qna_app_env
+channels:
+  - conda-forge
+  - pytorch
+  - huggingface
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - gradio
+    - transformers
+    - torch
+    - ipykernel
